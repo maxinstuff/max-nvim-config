@@ -1,3 +1,6 @@
+-- Customisations
+require("max")
+
 -- Lazy 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -21,6 +24,7 @@ require("lazy").setup({
     "mfussenegger/nvim-lint",
     "mhartington/formatter.nvim",
     "preservim/nerdtree",
+    "nvim-lua/plenary.nvim",
     "nvim-telescope/telescope.nvim",
     "rebelot/kanagawa.nvim",
 }, opts)
