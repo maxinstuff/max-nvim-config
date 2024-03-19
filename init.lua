@@ -33,6 +33,7 @@ require("lazy").setup({
     "rebelot/kanagawa.nvim",
     "tpope/vim-fugitive",
     "dense-analysis/ale",
+    "Townk/vim-autoclose",
 }, opts)
 
 -- LSP Zero setup
