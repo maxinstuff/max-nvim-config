@@ -27,13 +27,14 @@ require("lazy").setup({
     "rcarriga/nvim-dap-ui",
     "mfussenegger/nvim-lint",
     "mhartington/formatter.nvim",
-    "preservim/nerdtree",
     "nvim-lua/plenary.nvim",
     "nvim-telescope/telescope.nvim",
     "rebelot/kanagawa.nvim",
     "tpope/vim-fugitive",
     "dense-analysis/ale",
     "Townk/vim-autoclose",
+    "sharkdp/fd",
+    "nvim-treesitter/nvim-treesitter",
 }, opts)
 
 -- LSP Zero setup
